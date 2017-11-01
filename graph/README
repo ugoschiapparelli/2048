@@ -1,0 +1,3 @@
+"make" créer un exécutable 2048graph jouable en mode graphique
+"make clean" supprime tous les fichiers objets
+"make mrproper" effectue un make clean et supprime l'exécutable 2048graph

@@ -1,0 +1,18 @@
+/**
+ *\fn void DrawOption(Context *C, int i)
+ *\brief On dessine les différent boutons des options et le titre
+ *\param Contexte contexte du jeu
+ *\param int entier permettant de savoir quelle bouton à été appuyer ou passé par la souris  
+ */
+
+void DrawOptions(Context *C, int i);
+
+/**
+ *\fn int PlayOptions(Context *C, Input *in)
+ *\brief Permet de savoir quoi faire selon quelles inputs
+ *\param Contexte contexte du jeu
+ *\param Input tableau des inputs
+ *\return un int qui permet de savoir si la souris est sur quelle bouton et si on clique dessus
+ */
+
+int PlayOptions(Context *C, Input *in);

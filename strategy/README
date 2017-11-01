@@ -1,0 +1,5 @@
+Utilisation du Makefile:
+"make" créer un exécutable 2048strat effectuant la stratégie choisie dans le fichier 2048strategy.c (fast ou efficient) et créer 2 bibliothèques dynamiques "libA1_bedin_etcheverry_schiapparell
+i_efficient.so" et "libA1_bedin_etcheverry_schiapparelli_efficient.so" utilisables par l'exécutable "tournament"
+"make clean" supprime tous les fichiers objets et les bibliothèques
+"make mrproper" effectue un make clean et supprime l'exécutable 2048graph

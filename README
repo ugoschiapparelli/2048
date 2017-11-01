@@ -1,0 +1,6 @@
+Utilisation du Makefile:
+"make" fait appel à toutes les fichiers Makefile et ainsi effectue des "make" dans les répertoires "graph", "strategy", "termi
+nal" et "test" et créer le fichier libgrid.a dans le répertoire "lib" correspondant au fichier "grid.o"
+"make lib" créé le fichier libgrid.a
+"make clean" fait tous les "make clean" correspondant aux Makefile des sous-répertoires 
+"make mrproper" fais tous les "mrproper" correspondant aux Makefile des sous-répertoires

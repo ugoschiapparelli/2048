@@ -1,0 +1,8 @@
+Utilisation du Makefile:
+"make" créer un exécutable testGrid qui teste toutes les fonctions implémentées dans le fichier grid.c
+
+Infos:
+Le test affiche différentes grilles avec une attente de 1 sec entre chaque add_tile afin de montrer la fréquence d'apparition des tiles égales à 4.
+Le résultat de chaque test est affiché à la fin, "OK" ou "ERROR" indiquent si la fonction testée a rencontrée une erreur ou non.
+Les fonctions new_grid et delete_grid ne peuvent pas être automatisées. Cependant, les fuites de mémoire éventuelles sont testables en effectuant la commande suivante "valgrind ./NOM_DE_L_EXEC
+UTABLE"
